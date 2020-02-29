@@ -46,13 +46,9 @@ int main () {
                 printf("sum1:%d , sum got in range start:%d ~ %d\n",sum,arr[startIndexShifted],arr[i]);
                 break;
             }
-            
-            
-            
+
             startIndexShifted = 0;
-            
             while (sum > target) {
-                //  i = i +1;
                 sum = sum - arr [startIndexShifted];
                 startIndexShifted = startIndexShifted + 1;
 
@@ -64,18 +60,15 @@ int main () {
                 }
             }
             
-            
             if (matched) {
                 break;
             }
-
         }
         
         // Break and not found
         if (sum != target) {
             printf("subarray sum not found:%d\n",sum);
         }
-
     }
     return 0;
 }
