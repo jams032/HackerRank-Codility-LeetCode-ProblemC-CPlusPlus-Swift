@@ -30,8 +30,7 @@ int sort(int A[], int n)
     // fill all remaining indices by 1
     int startIndex = n - k;
     for (int i = 0; i< k; i++) {
-        int indexOf1s = startIndex + i;
-        A[indexOf1s] = 1;
+        A[startIndex + i] = 1;
     }
     return 0;
 }
