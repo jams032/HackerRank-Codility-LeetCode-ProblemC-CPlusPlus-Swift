@@ -1,3 +1,4 @@
-# HackerRank-ProblemC-CPlusPlus
-HackerRank-Problem-Solve-C-CPlusPlus
+# HackerRank-Codility-LeetCode-ProblemC-CPlusPlus-Swift
+
+HackerRank-Codility-LeetCode-ProblemC-CPlusPlus-Swift
  
